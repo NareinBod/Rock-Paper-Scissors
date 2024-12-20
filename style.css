@@ -1,0 +1,102 @@
+#header {
+    text-align: center;
+    background-color: #ff6f61; /* Coral */
+    color: #ffffff; /* White */
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.score-board {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 2rem;
+}
+
+.score {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+#Color {
+    height: 60px;
+    width: 60px;
+    background: #ff9f1c; /* Bright Orange */
+    border: none;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.symbols {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: none;
+    margin: 60px;
+    font-size: 30px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.symbols:hover {
+    transform: scale(1.1);
+}
+
+#rock {
+    background-color: #6a4c93; /* Purple */
+}
+
+#paper {
+    background-color: #f4d35e; /* Mustard Yellow */
+}
+
+#scissors {
+    background-color: #0081a7; /* Deep Teal */
+}
+
+.dark {
+    background: #1c1c1c; /* Dark Gray */
+    color: white;
+}
+
+.light {
+    background: #fefefe; /* Light Gray */
+    color: black;
+}
+
+#button-container {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.msg-container {
+    color: white; /* White text color */
+    padding: 1rem; /* Add space inside the container */
+    border-radius: 1rem; /* Rounded corners */
+    text-align: center; /* Center text inside */
+    margin-bottom: 20px; /* Add spacing below the message */
+}
+
+#msg {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
